@@ -2,10 +2,11 @@ import React from 'react';
 import NavigationBar from './NavBar';
 
 import gravityGreens from './imgs/GravityGreens/gravityGreens.png'
+import websiteImg from './imgs/website/main_page.png'
 
 const projects = [
-  { id: 1, title: 'Gravity Greens', photo: gravityGreens, caption: 'CPSC427 Video Game: Gravity Greens', date: 'Dec 30, 2023', link: "/gravity-greens"},
-  { id: 2, title: 'Project 2', photo: '/path/to/project2.jpg', caption: 'Project 2 caption' },
+  { id: 2, title: 'Personal Website', photo: websiteImg, caption: 'Personal Website', date: 'January 2, 2024', link: "/website-creation"},
+  { id: 1, title: 'Gravity Greens', photo: gravityGreens, caption: 'CPSC427 Video Game: Gravity Greens', date: 'December 30, 2023', link: "/gravity-greens"},
 ];
 
 const Box = ({ project }) => {
@@ -28,9 +29,9 @@ function navigateToProjectPage(link) {
 const BoxGrid = () => {
   return (
     <div className="grid">
-      {projects.map((project) => (
+      {projects.map((project, index) => (
         <Box key={project.id} project={project} />
-      ))}
+        ))}
     </div>
   );
 };

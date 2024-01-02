@@ -1,11 +1,11 @@
 import React from "react";
-import RotatingPhotos from "./photoGallery";
-import NavigationBar from "./NavBar";
+import RotatingPhotos from "../photoGallery";
+import NavigationBar from "../NavBar";
 
-import gravityGreens1 from './imgs/GravityGreens/gravityGreens.png'
-import gravityGreens2 from './imgs/GravityGreens/gravityGreens2.png'
-import gravityGreens3 from './imgs/GravityGreens/gravityGreens3.png'
-import gravityGreens4 from './imgs/GravityGreens/gravityGreens4.png'
+import gravityGreens1 from '../imgs/GravityGreens/gravityGreens.png'
+import gravityGreens2 from '../imgs/GravityGreens/gravityGreens2.png'
+import gravityGreens3 from '../imgs/GravityGreens/gravityGreens3.png'
+import gravityGreens4 from '../imgs/GravityGreens/gravityGreens4.png'
 
 function GravityGreens() {
     return (
