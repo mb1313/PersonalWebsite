@@ -5,8 +5,8 @@ import gravityGreens from './imgs/GravityGreens/gravityGreens.png'
 import websiteImg from './imgs/website/main_page.png'
 
 const projects = [
-  { id: 2, title: 'Personal Website', photo: websiteImg, caption: 'Personal Website', date: 'January 2, 2024', link: "/website-creation"},
-  { id: 1, title: 'Gravity Greens', photo: gravityGreens, caption: 'CPSC427 Video Game: Gravity Greens', date: 'December 30, 2023', link: "/gravity-greens"},
+  { id: 2, title: 'Personal Website', photo: websiteImg, caption: 'Personal Website', date: 'January 2, 2024', link: "#/website-creation"},
+  { id: 1, title: 'Gravity Greens', photo: gravityGreens, caption: 'CPSC427 Video Game: Gravity Greens', date: 'December 30, 2023', link: "#/gravity-greens"},
 ];
 
 const Box = ({ project }) => {

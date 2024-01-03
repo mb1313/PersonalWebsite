@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 import NavigationBar from './NavBar';
 import RotatingPhotos from './photoGallery';
 
@@ -43,7 +44,7 @@ function GeneralInfo() {
       <h2>Introduction</h2>
       <p>I am in my final year of a Computer Science degree from the University of British Columbia, and will join Mastercard in Vancouver as a Software Engineer in August 2024.</p>
       <p>Some of my business interests include: payment systems; electrical infrastructure; and environmental sustainability.</p>
-      <p> See my <ins><a href="/resume">resume page</a></ins> for more info on my work experiences.</p>
+      <p> See my <ins><Link to="/resume">resume page</Link></ins> for more info on my work experiences.</p>
       <p>My personal passions include: running; the outdoors; the night sky; geography; music; art; puzzles; basketball; and breakfast.</p>
       <hr />
       <h2>Contact</h2>
