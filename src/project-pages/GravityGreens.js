@@ -14,7 +14,7 @@ function GravityGreens() {
                 <h1>Gravity Greens</h1>
                 <h2>Download for Windows <a href="https://andrewting.itch.io/gravity-greens" target='_blank' rel='noreferrer'><u>here</u></a></h2>
                 <hr/>
-                <h5>During the 2023 fall term, I took CPCS427 at UBC: Video Game Development. In this course, I had a great experience designing a video game with my team using C++ and OpenGL.</h5>
+                <h5>During the 2023 fall term, I took CPSC427 at UBC: Video Game Development. In this course, I had a great experience designing a video game with my team using C++ and OpenGL.</h5>
                 <h5>Our game, Gravity Greens, is a golf roguelike - players need to leverage the gravity of the planets to get the ball into the black hole before running out of fuel.</h5>
                 <RotatingPhotos photos={[gravityGreens2, gravityGreens1, gravityGreens3, gravityGreens4]}
                 captions={["Tutorial level", "Level 2 featuring the ball trajectory", "Level 9 is a doozy", "Camera zoom as the ball is in motion"]} />
