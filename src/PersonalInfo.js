@@ -34,6 +34,8 @@ import bcridge from './imgs/skiing/mtn_views.jpg'
 import greatTrek from './imgs/running/greatTrek.jpg'
 import sooke from './imgs/running/sookePotholes.jpg'
 
+
+
 function GeneralInfo() {
   return (
     <div>
