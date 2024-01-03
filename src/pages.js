@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter, Route, Routes } from 'react-router-dom';
+import {Route, Routes } from 'react-router-dom';
 import GeneralInfo from './PersonalInfo';
 import Resume from './Resume';
 import SideProjects from './SideProjects';
@@ -8,7 +8,6 @@ import PersonalSite from './project-pages/PersonalSite';
 
 function Pages() {
   return (
-    <HashRouter>
       <Routes>
         <Route path="/" element={<GeneralInfo/>} />
         <Route path="/resume" element={<Resume/>} />
@@ -16,7 +15,6 @@ function Pages() {
         <Route path="/gravity-greens" element={<GravityGreens/>} />
         <Route path="/website-creation" element={<PersonalSite/>} />
       </Routes>
-    </HashRouter>
   );
 }
 
