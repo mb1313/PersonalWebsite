@@ -6,6 +6,7 @@ import SideProjects from './SideProjects';
 import GravityGreens from './project-pages/GravityGreens';
 import PersonalSite from './project-pages/PersonalSite';
 import Mama from './Mom2024';
+import Dad_day_2024 from './Dad2024';
 
 function Pages() {
   return (
@@ -17,6 +18,7 @@ function Pages() {
         <Route path="/gravity-greens" element={<GravityGreens/>} />
         <Route path="/website-creation" element={<PersonalSite/>} />
         <Route path="/mothers_day_2024" element={<Mama/>} />
+        <Route path="/dad_day_2024" element={<Dad_day_2024/>} />
       </Routes>
       </HashRouter>
   );
