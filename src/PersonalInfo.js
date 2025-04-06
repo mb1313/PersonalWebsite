@@ -42,10 +42,10 @@ function GeneralInfo() {
     <div>
       <NavigationBar />
       <h2>Introduction</h2>
-      <p>I am in my final year of a Computer Science degree from the University of British Columbia, and will join Mastercard in Vancouver as a Software Engineer in August 2024.</p>
+      <p>I am a Software Engineer I at Mastercard in Vancouver, where I started in August 2024.</p>
       <p>Some of my business interests include: payment systems; electrical infrastructure; and environmental sustainability.</p>
       <p> See my <ins><Link to="/resume">resume page</Link></ins> for more info on my work experiences.</p>
-      <p>My personal passions include: running; the outdoors; the night sky; geography; music; art; puzzles; basketball; and breakfast.</p>
+      <p>My personal passions include: running; the outdoors; the night sky; geography; music; art; puzzles; basketball; high fantasy; and breakfast.</p>
       <hr />
       <h2>Contact</h2>
 
